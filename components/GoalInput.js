@@ -24,7 +24,7 @@ function GoalInput(props) {
             onChangeText={goalInputHandler}
             value={enteredGoalText}
             />
-            <View styles={styles.buttonContainer}>
+            <View style={styles.buttonContainer}>
               <View style= {styles.button}>
                <Button title="Cancel" onPress={props.onCancel} color='#f31282' />
               </View>
